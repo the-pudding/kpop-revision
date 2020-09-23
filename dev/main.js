@@ -7061,7 +7061,7 @@ var _default = tippy;
 exports.default = _default;
 },{"@popperjs/core":"jI1K"}],"d4Ux":[function(require,module,exports) {
 
-},{}],"epB2":[function(require,module,exports) {
+},{}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _lodash = _interopRequireDefault(require("lodash.debounce"));
@@ -7132,18 +7132,19 @@ function init() {
 
   var tippyImages = {
     "bts": "<img src='https://media.giphy.com/media/3ofT5IUGY3FNyi5MAg/giphy.gif'>",
-    "seo": "<img src='https://media.giphy.com/media/YRKlg4ZYNZrhtFGyd8/giphy.gif'>",
-    "super": "<img src='https://media.giphy.com/media/l0ErUBWwX9KaSoWnC/giphy.gif'>",
-    "girls": "<img src='https://media.giphy.com/media/qRG4DDwJpkCYg/giphy.gif'>",
-    "nct": "<img src='https://data.whicdn.com/images/318899801/original.gif'>",
+    "seo": "<img src='https://media.giphy.com/media/d8JrmLFXOENfGZKvk5/giphy.gif'>",
+    "super": "<img src='https://media.giphy.com/media/h3dPhzmt22i6tIFSBb/giphy.gif'>",
+    "girls": "<img src='https://media.giphy.com/media/GF2j4AphaTDqg/giphy.gif'>",
+    "nct": "<img src='https://media.giphy.com/media/mEmpgiTZaNGozOq2fV/giphy.gif'>",
     "blackpink": "<img src='https://media.giphy.com/media/fx5Eq1QkybZBYmfq7M/giphy.gif'>",
     "djdoc": "<img src='https://media.giphy.com/media/TKYOjhcoMYUNl6SiE8/giphy.gif'>",
-    "yoona": "<img src='https://media.giphy.com/media/3otPoBv5xqC4Za574k/giphy.gif'>",
-    "exo": "<img src='https://media.giphy.com/media/3orif6LTloyNnUv8oE/giphy.gif'>",
-    "seventeen": "<img src='https://media.giphy.com/media/3o6wr86sMOUaOOHXRS/giphy.gif'>",
+    "yoona": "<img src='https://media.giphy.com/media/3ohfFvoeioWVPPYrGU/giphy.gif'>",
+    "exo": "<img src='https://media.giphy.com/media/lNEWJSWZqWgybocMK0/giphy.gif'>",
+    "seventeen": "<img src='https://media.giphy.com/media/KZk4raQzMV2cYa4Ubr/giphy.gif'>",
     "jayz": "<img src='https://media.giphy.com/media/C0CLctoErM7WE/giphy.gif'>",
     "jungkook": "<img src='https://media.giphy.com/media/SqBnf9Go5I4MhhGU9t/giphy.gif'>",
-    "twice": "<img src='https://media.giphy.com/media/chER4LakgBBM1YAUVv/giphy.gif'>",
+    "twice": "<img src='https://media.giphy.com/media/fYC6joqiNhJzvHR0NT/giphy.gif'>",
+    "wanna": "<img src='https://media.giphy.com/media/TIdrob2f8tTbhZ5Jib/giphy.gif'>",
     "exp": "<img src='https://media.giphy.com/media/PlV6Y75V8b0Bd2krC6/giphy.gif'>"
   };
   d3.selectAll(".tooltip-highlight-gif").attr("data-tippy-content", function (d) {
@@ -7260,5 +7261,5 @@ function init() {
 }
 
 init();
-},{"lodash.debounce":"or4r","./utils/is-mobile":"WEtf","./utils/link-fix":"U9xJ","./graphic":"TAPd","./footer":"v9Q8","intersection-observer":"CRRU","scrollama":"vL5c","tippy.js":"DpGZ","tippy.js/dist/backdrop.css":"d4Ux","tippy.js/animations/shift-away.css":"d4Ux","tippy.js/animations/scale-extreme.css":"d4Ux"}]},{},["epB2"], null)
+},{"lodash.debounce":"or4r","./utils/is-mobile":"WEtf","./utils/link-fix":"U9xJ","./graphic":"TAPd","./footer":"v9Q8","intersection-observer":"CRRU","scrollama":"vL5c","tippy.js":"DpGZ","tippy.js/dist/backdrop.css":"d4Ux","tippy.js/animations/shift-away.css":"d4Ux","tippy.js/animations/scale-extreme.css":"d4Ux"}]},{},["main.js"], null)
 //# sourceMappingURL=/main.js.map

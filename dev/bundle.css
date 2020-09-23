@@ -988,10 +988,98 @@ main .prose-image {
     margin-left: 18rem;
   }
 }
+#chart3 {
+  height: 700px;
+}
+.roles-grid-2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+@media (min-width: 900px) {
+  .roles-grid-2 {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .roles-grid-2 {
+    display: none;
+  }
+}
+.roles-grid-2 svg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.roles-grid-2 svg text {
+  font-family: 'National 2 Narrow Web';
+}
+.roles-grid-2 .side-by-side {
+  display: block;
+  margin: auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .roles-grid-2 .side-by-side svg {
+    margin-bottom: 3rem;
+  }
+}
+.roles-grid-3 {
+  max-width: 330px;
+  margin: 0 auto;
+  position: relative;
+  display: none;
+}
+@media (max-width: 450px) {
+  .roles-grid-3 {
+    display: block;
+  }
+}
+.roles-grid-3 svg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.roles-grid-3 svg text {
+  font-family: 'National 2 Narrow Web';
+}
+.roles-grid-3 .side-by-side {
+  display: block;
+  margin: auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .roles-grid-3 .side-by-side svg {
+    margin-bottom: 3rem;
+  }
+}
 .roles-grid {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
+}
+@media (max-width: 900px) {
+  .roles-grid {
+    display: none;
+  }
 }
 .roles-grid svg {
   position: absolute;
@@ -1138,11 +1226,14 @@ main .prose-image {
 #generation-2-label {
   color: #e58b96;
 }
+.part2 .chart {
+  height: 750px;
+}
 #generation-3-label {
   color: #73bcbd;
 }
 #supergroups-label {
-  color: #fca972;
+  color: #008000;
 }
 #subunits-label {
   color: #bf216b;
@@ -1160,7 +1251,7 @@ main .prose-image {
   border-color: #73bcbd;
 }
 .supergroups-wrapper {
-  border-color: #fca972;
+  border-color: #008000;
 }
 .subunits-wrapper {
   border-color: #bf216b;

@@ -153,10 +153,67 @@ main
     @media (min-width: 1000px)
       margin-left 18rem
 
+#chart3
+  height 700px
+.roles-grid-2
+  max-width 1000px
+  margin 0 auto
+  position relative
+  @media (min-width: 900px)
+    display none
+  @media (max-width: 450px)
+    display none
+  svg
+    position absolute
+    width 100%
+    top 0
+    left 0
+    text
+      font-family $national-narrow
+  .side-by-side
+    display block
+    margin auto
+    width 90%
+    display flex
+    flex-wrap wrap
+    max-width 1200px
+    justify-content space-around
+    svg
+      @media (max-width: 500px)
+        margin-bottom 3rem
+
+.roles-grid-3
+  max-width 330px
+  margin 0 auto
+  position relative
+  display none
+  @media (max-width: 450px)
+    display block
+  svg
+    position absolute
+    width 100%
+    top 0
+    left 0
+    text
+      font-family $national-narrow
+  .side-by-side
+    display block
+    margin auto
+    width 90%
+    display flex
+    flex-wrap wrap
+    max-width 1200px
+    justify-content space-around
+    svg
+      @media (max-width: 500px)
+        margin-bottom 3rem
+
 .roles-grid
   max-width 1200px
   margin 0 auto
   position relative
+  @media (max-width: 900px)
+    display none
   svg
     position absolute
     width 100%
@@ -279,11 +336,15 @@ main
 #generation-2-label
   color #E58B96
 
+.part2
+  .chart
+    height 750px
+
 #generation-3-label
   color #73BCBD
 
 #supergroups-label
-  color #FCA972
+  color green
 
 #subunits-label
   color #BF216B
@@ -301,7 +362,7 @@ main
   border-color #73BCBD
 
 .supergroups-wrapper
-  border-color #FCA972
+  border-color green
 
 .subunits-wrapper
   border-color #BF216B
