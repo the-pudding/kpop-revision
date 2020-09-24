@@ -770,7 +770,7 @@ a {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  background-image: url("assets/images/kpop_top_v3.png");
+  background-image: url("assets/images/kpop_top_v3_1.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -983,13 +983,10 @@ main .prose-image {
   -ms-flex-item-align: center;
       align-self: center;
 }
-@media (min-width: 1000px) {
-  #rankings-text .overlay {
-    margin-left: 18rem;
-  }
-}
 #chart3 {
   height: 700px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
 }
 .roles-grid-2 {
   max-width: 1000px;
@@ -1289,18 +1286,48 @@ main .prose-image {
   color: #344ea5;
   color: #0b0f22;
   background: #fcd3d4;
-  cursor: help;
+  cursor: arrow;
 }
 .tooltip-highlight-gif {
-  cursor: help;
   position: relative;
   z-index: 10000000;
+  background: none;
+  display: inline-block;
+  cursor: arrow;
+}
+.tooltip-highlight-gif:before {
+  content: '';
+  background: #f8f9fa;
+  width: 27px;
+  height: 20px;
+  right: -2px;
+  top: 5px;
+  position: absolute;
+  display: inline-block;
+  background-size: cover;
+  margin-left: 6px;
+  display: none;
+  border-radius: 3px;
+}
+.tooltip-highlight-gif:after {
+  content: '';
+  background: #fff;
+  width: 24px;
+  right: 0px;
+  top: 0px;
+  height: 13px;
+  position: relative;
+  display: inline-block;
+  background-image: url("assets/images/gif.png");
+  background-size: cover;
+  margin-left: 6px;
+  display: none;
 }
 .tooltip-highlight-gif .mouseover-gif {
   display: none;
 }
 .tooltip-highlight-gif .mouseover-gif img {
-  position: absolute;
+  position: relative;
   left: 0px;
   top: 2rem;
   width: 300px;

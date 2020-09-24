@@ -95,23 +95,23 @@ function init() {
     .each(function(d){
       let imgTag = d3.select(this).attr("data-tippy-content");
       d3.select(this)
-        .on("mouseover",function(d){
+        .on("click",function(d){
           d3.select(this)
             .transition()
             .duration(0)
             .select(".mouseover-gif")
-            .style("display","inline-block")
+            .style("display","block")
         })
-        .on("mouseout",function(d){
-          d3.select(this)
-            .select(".mouseover-gif")
-            .transition()
-            .duration(1000)
-            .style("opacity",0)
-            .on("end",function(d){
-              d3.select(this).style("opacity",null).style("display",null);
-            })
-        })
+        // .on("mouseout",function(d){
+        //   d3.select(this)
+        //     .select(".mouseover-gif")
+        //     .transition()
+        //     .duration(1000)
+        //     .style("opacity",0)
+        //     .on("end",function(d){
+        //       d3.select(this).style("opacity",null).style("display",null);
+        //     })
+        // })
         .append("span")
         .attr("class","mouseover-gif")
         .html(imgTag)

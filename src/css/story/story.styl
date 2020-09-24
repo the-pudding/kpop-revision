@@ -150,11 +150,10 @@ main
 #rankings-text
   .overlay
     align-self center
-    @media (min-width: 1000px)
-      margin-left 18rem
-
 #chart3
   height 700px
+  width calc(100% - 20px)
+  margin 0 auto
 .roles-grid-2
   max-width 1000px
   margin 0 auto
@@ -400,17 +399,45 @@ main
   color #344EA5
   color $text-blue
   background #fcd3d4
-  cursor help
+  cursor arrow
 
 
 .tooltip-highlight-gif
-  cursor help
   position relative
   z-index 10000000
+  background none
+  display inline-block
+  cursor arrow
+  &:before
+    content ''
+    background #f8f9fa
+    width 27px
+    height 20px
+    right -2px
+    top 5px
+    position absolute
+    display inline-block
+    background-size cover
+    margin-left 6px
+    display none
+    border-radius 3px
+  &:after
+    content ''
+    background white
+    width 24px
+    right 0px
+    top 0px
+    height 13px
+    position relative
+    display inline-block
+    background-image url(assets/images/gif.png)
+    background-size cover
+    margin-left 6px
+    display none
   .mouseover-gif
     display none
     img
-      position absolute
+      position relative
       left 0px
       top 2rem
       width 300px
