@@ -95,13 +95,13 @@ function init() {
     .each(function(d){
       let imgTag = d3.select(this).attr("data-tippy-content");
       d3.select(this)
-        .on("click",function(d){
-          d3.select(this)
-            .transition()
-            .duration(0)
-            .select(".mouseover-gif")
-            .style("display","block")
-        })
+        // .on("click",function(d){
+        //   d3.select(this)
+        //     .transition()
+        //     .duration(0)
+        //     .select(".mouseover-gif")
+        //     .style("display","block")
+        // })
         // .on("mouseout",function(d){
         //   d3.select(this)
         //     .select(".mouseover-gif")
@@ -112,9 +112,9 @@ function init() {
         //       d3.select(this).style("opacity",null).style("display",null);
         //     })
         // })
-        .append("span")
-        .attr("class","mouseover-gif")
-        .html(imgTag)
+        // .append("span")
+        // .attr("class","mouseover-gif")
+        // .html(imgTag)
     })
   // tippy('[data-tippy-content]',
   //     {
