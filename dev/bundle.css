@@ -825,6 +825,13 @@ a {
   font-weight: 600;
   margin-top: 3rem;
 }
+.black {
+  background: #422700;
+  color: #fff;
+  font-family: 'National 2 Narrow Web';
+  padding-left: 4px;
+  padding-right: 4px;
+}
 h2 {
   line-height: 1.3;
 }
